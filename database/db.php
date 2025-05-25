@@ -1,14 +1,11 @@
 <?php
 
-$mysqli = new mysqli('localhost', 'root', 'password');
+$mysqli = new mysqli('localhost', 'root', '');
 
 // Check connection
 if ($mysqli->connect_error) {
     die("Connection Error: " . $mysqli->connect_error);
 }
-
-
-$mysqli->set_charset("utf8mb4");
 
 function create_db($mysqli)
 {

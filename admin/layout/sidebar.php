@@ -6,9 +6,9 @@
         <ul>
             <li><a href="dashboard.php" class="text-white">Dashboard</a></li>
             <li><a href="category.php">Category</a></li>
-            <li><a href="dashboard.php">Products</a></li>
-            <li><a href="dashboard.php">Order</a></li>
-            <li><a href="dashboard.php">Payment</a></li>
+            <li><a href="product.php">Products</a></li>
+            <li><a href="order.php">Order</a></li>
+            <li><a href="payment.php">Payment</a></li>
         </ul>
     </div>
 </div>

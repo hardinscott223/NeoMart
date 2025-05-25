@@ -1,3 +1,7 @@
 <nav class="bg-primary">
-    <div>hello</div>
+    <span>Logon</span>
+    <div>
+        <span>image</span>
+        <span>Username</span>
+    </div>
 </nav>
