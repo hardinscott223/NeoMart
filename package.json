@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.6"
+    "@fontsource/noto-sans-jp": "^5.2.5",
+    "bootstrap": "^5.3.6",
+    "jquery": "^3.7.1"
   }
 }

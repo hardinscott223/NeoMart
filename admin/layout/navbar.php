@@ -1,7 +1,6 @@
-<nav class="bg-primary">
+<nav class="bg-success">
     <span>Logon</span>
-    <div>
-        <span>image</span>
-        <span>Username</span>
-    </div>
+
+    <span>image</span>
+    <span>Username</span>
 </nav>

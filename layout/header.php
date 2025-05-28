@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="/NeoMart/layout/assets/main.css">
     <title>NeoMart</title>
 </head>
+
 <body>
     <div class="row">
-        
