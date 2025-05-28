@@ -5,7 +5,7 @@ require_once('../layout/header.php');
      <div class="card">
           <h1>Register Here</h1>
           <div>Already have account? <a href="login.php">Login Here</a></div>
-          <form action="">
+          <form action="" method="post">
                <div class="form-control">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" id="username" name="username" class="form-control">
