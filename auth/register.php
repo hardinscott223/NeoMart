@@ -5,7 +5,7 @@ require_once('../layout/header.php');
      <div class="card">
           <h1>Register Here</h1>
           <div>Already have account? <a href="login.php">Login Here</a></div>
-          <form action="" method="post">
+          <form method="post">
                <div class="form-control">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" id="username" name="username" class="form-control">
@@ -22,9 +22,8 @@ require_once('../layout/header.php');
                     <label for="confirmpassword" class="form-label">Confirm Password</label>
                     <input type="password" id="confirmpassword" name="confirmpassword" class="form-control" autocomplete>
                </div>
+               <button type="submit" class="button" id="registerBtn">Register</button>
           </form>
-          <button type="submit" class="button" id="registerBtn">Register</button>
-
      </div>
 </div>
 <?php
