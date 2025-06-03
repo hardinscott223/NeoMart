@@ -1,4 +1,9 @@
 <?php
+require_once("../auth/auth.php");
+if (!$authUser['is_admin']) {
+    header("location:../auth/login.php");
+    exit;
+}
 require_once('../layout/header.php');
 require_once('./layout/sidebar.php');
 
